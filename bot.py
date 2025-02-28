@@ -6,8 +6,8 @@ from subprocess import PIPE, STDOUT
 from time import time
 
 api_id = os.environ['API_ID']
-api_hash = os.environ['API_HASH']
-bot_token = os.environ['BOT_TOKEN']
+api_hash = os.environ['aadb42caec01695fa0a77c09b3e0ef47']
+bot_token = os.environ['7635660101:AAGOKzmPfdJOL4oKAAZWqcc0FuRdiC6RcpA']
 
 app = Client('m3u8', api_id, api_hash, bot_token=bot_token)
 
